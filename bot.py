@@ -3,7 +3,10 @@ import json
 import discord
 from discord.ext import commands
 from dotenv import load_dotenv
+from keep_alive import keep_alive
 
+
+keep_alive()
 load_dotenv()
 
 BOT_TOKEN = os.getenv("BOT_TOKEN")

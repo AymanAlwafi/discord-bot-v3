@@ -1,5 +1,6 @@
 # .gitignore
 .venv/
+.env.txt
 .env.example.txt
 channel_config.json
 __pycache__/
